@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lvv</title>
+		<link rel="icon" href="./img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./css/style.min.css" />
+	</head>
+
+	<body class="main__body">
+		<!-- Header -->
+		<header>
+	<!-- Navbar -->
+	<div class="header" id="header">
+		<div class="container">
+			<div class="abovenav">
+				<div class="anavitem">
+					<h3 class="anavtext">
+						📞 +7 (981) 402-76-46
+						<span>
+							✉Россия, Петрозаводск , р-н Октябрьский, Мурманская 25Б | р-н
+							Центр, Коммунальная,20
+						</span>
+					</h3>
+				</div>
+				<div class="anavitem">
+					<a href="https://vk.com/lvv.studio">
+						<h2 class="anavsecondtext">VK</h2>
+					</a>
+				</div>
+			</div>
+			<div class="navbar">
+				<div class="logo">
+					<a href="#">
+						<img class="logoimg" src="./img/logo.png" alt="logo" />
+					</a>
+				</div>
+				<nav>
+					<ul class="menu">
+						<li class="menu__item nine">
+							<a href="#about" class="menu__item-link" data-scroll>О нас</a>
+						</li>
+						<li class="menu__item nine">
+							<a href="#contacts" class="menu__item-link" data-scroll
+								>Контакты</a
+							>
+						</li>
+						<li class="menu__item nine">
+							<a href="#personal" class="menu__item-link" data-scroll
+								>Персонал</a
+							>
+						</li>
+						<li class="menu__item">
+							<label class="switch">
+								<input class="switch__checkbox" type="checkbox" name="switch" />
+								<div class="switch__slider"></div>
+							</label>
+						</li>
+					</ul>
+				</nav>
+
+				<button class="burger">
+					<span></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Main Page -->
+		<main>
+			<section class="section section__hero" id="hero">
+	<div class="hero">
+		<div class="hero__item">
+			<h1 class="hero_text">
+				Lvv.studio - Семейная студия красоты в Петрозаводске
+			</h1>
+		</div>
+		<div class="hero__item">
+			<h2 class="hero__secondtext">
+				Студия красоты в Петрозаводске, р-н Октябрьский, Мурманская 25Б | р-н
+				Центр, Коммунальная,20 📞+7 (981) 402-76-46
+			</h2>
+		</div>
+		<div class="hero__item">
+			<!-- Modal -->
+			<div class="modal__wrapper" id="modal">
+				<div class="modal">
+					<div class="modal__close">
+						<img
+							src="./img/cancel.svg"
+							alt="cancel"
+							width="10px"
+							height="10px"
+						/>
+					</div>
+					<div class="modal__title"><span>Запишитесь к нам!</span></div>
+					<div class="modal__body">
+						<form action="mail.php" method="POST">
+							<div class="form-group">
+								<input
+									required
+									type="text"
+									class="form-control"
+									id=""
+									name="user_name"
+									placeholder="Ваше имя"
+									pattern="^[А-Яа-яЁё]+$"
+								/>
+							</div>
+
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									id=""
+									name="user_phone"
+									placeholder="+7 (999) 99 99 999"
+									pattern="^\+[0-9]+$"
+									required
+								/>
+							</div>
+							<!-- Select -->
+							<div class="form-group">
+								<div id="select">
+									<input
+										type="text"
+										class="hidden__input"
+										name="usluga"
+										required
+									/>
+								</div>
+							</div>
+							<div class="form-group">
+								<input
+									required
+									type="text"
+									class="form-control"
+									id=""
+									name="user_email"
+									placeholder="mail@mail.ru"
+									pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+								/>
+							</div>
+
+							<button type="submit" class="btn btn-primary">Записаться!</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<a href="#footer" class="btn hero__btn">Записаться</a>
+		</div>
+	</div>
+</section>
+ <section class="section section__about" id="about">
+	<div class="container">
+		<div class="about__title">
+			<h1>О нас</h1>
+		</div>
+		<div class="about">
+			<div class="about__item">
+				<div class="about__item-text">
+					Студия красоты Lvv- это команда профессионалов, любящих свое дело. В
+					нашем салоне особая атмосфера, индивидуальный подход к каждому
+					клиенту. В бесконечной суете просто необходимо иногда выделять время
+					только для себя. Посетив студию красоты Lvv, вы сможете приятно и с
+					пользой провести время.
+				</div>
+				<div class="about__item-contacts">
+					<h3 class="about__item-contacts-number">+7 (981) 402-76-46</h3>
+					<h3 class="about__item-contacts-text">
+						Петрозаводск, р-н Октябрьский, Мурманская 25Б | р-н Центр,
+						Коммунальная,20
+					</h3>
+				</div>
+				<div class="about__btn-style">
+					<a href="#footer" class="about__btn">Записаться</a>
+				</div>
+			</div>
+			<div class="about__item">
+				<img src="./img/logo.png" alt="logo" class="about__img" />
+			</div>
+		</div>
+	</div>
+</section>
+
+			
+			<section class="section section__personal" id="personal">
+	<div class="container">
+		<div class="personal__title">
+			<h1 class="personal__title-text">Наш персонал</h1>
+		</div>
+		<div class="personal">
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/a.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Юлия</div>
+					<div class="personal__item-content-subname">Мастер по ресницам</div>
+				</div>
+			</div>
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/b.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Вероника</div>
+					<div class="personal__item-content-subname">мастер маникюра</div>
+				</div>
+			</div>
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/c.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Ксения</div>
+					<div class="personal__item-content-subname">тату-мастер</div>
+				</div>
+			</div>
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/e.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Валерия</div>
+					<div class="personal__item-content-subname">
+						мастер-бровист и мастер по ресницам
+					</div>
+				</div>
+			</div>
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/f.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Дарья</div>
+					<div class="personal__item-content-subname">мастер по волосам</div>
+				</div>
+			</div>
+			<div class="personal__item">
+				<div class="personal__item-img">
+					<img src="./img/g.jpg" class="personal-img" />
+				</div>
+				<div class="personal__item-content">
+					<div class="personal__item-content-name">Дарина</div>
+					<div class="personal__item-content-subname">мастер визажист</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		</main>
+		<!-- Footer -->
+		<section class="section section__footer" id="footer">
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<div class="footer__text">
+					<h1 class="footer__text-content">
+						РОССИЯ, ПЕТРОЗАВОДСК , УЛИЦА ЕРЕМЕЕВА, 38
+					</h1>
+				</div>
+				<div class="footer__button">
+						<button class="btn modal__btn" id="l">
+							Записаться +7 (981) 402-76-46
+						</button>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+ <section class="section section__maps">
+	<div class="container">
+		<div class="map">
+			<iframe
+				id="map_838966031"
+				frameborder="0"
+				width="100%"
+				height="400px"
+				sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
+			></iframe>
+			<script type="text/javascript">
+				;(function (e, t) {
+					var r = document.getElementById(e)
+					r.contentWindow.document.open(),
+						r.contentWindow.document.write(atob(t)),
+						r.contentWindow.document.close()
+				})(
+					'map_838966031',
+					'PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiIzAyODFmMiIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzM0LjMzMzY2NSw2MS44MDA4NTRdfSwiaWQiOjY0NX1dLCJtYXBQb3NpdGlvbiI6eyJsYXQiOjYxLjgwMDM5MDQ5OTI3NzUzLCJsb24iOjM0LjMzNTQyNDMwNDAwODQ5LCJ6b29tIjoxN30sImlzV2hlZWxab29tRW5hYmxlZCI6dHJ1ZX0nKTwvc2NyaXB0PjxzY3JpcHQgYXN5bmM9IiIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0YWcvanM/aWQ9VUEtMTU4ODY2MTY4LTEiPjwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4oZnVuY3Rpb24oZSl7ZnVuY3Rpb24gdCgpe2RhdGFMYXllci5wdXNoKGFyZ3VtZW50cyl9d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXSx0KCJqcyIsbmV3IERhdGUpLHQoImNvbmZpZyIsZSksd2luZG93Lmd0YWc9dH0pKCdVQS0xNTg4NjYxNjgtMScpPC9zY3JpcHQ+PC9ib2R5Pg=='
+				)
+			</script>
+		</div>
+
+		<div class="umap" id="contacts">
+			<div class="umap__text">
+				<li>Lvv Studio 2024</li>
+			</div>
+			<div class="umap__links">
+				<a href="https://vk.com/lvv.studio" class="umap__links-content">
+					<img src="./img/vk.svg" alt="logo" class="umap__img" />
+				</a>
+				<a href="https://www.instagram.com/lv_v_lv" class="umap__links-content">
+					<img src="./img/insta.svg" alt="logo" class="umap__img" />
+				</a>
+				<a
+					href="https://www.avito.ru/user/1dc4d9e802bb1837639ba03bcf83edfa/profile/all?src=sharing&sellerId=1dc4d9e802bb1837639ba03bcf83edfa"
+					class="umap__links-content"
+				>
+					<img src="./img/avito.svg" alt="logo" class="umap__img" />
+				</a>
+				<a href="https://t.me/StudioLvv_Bot" class="umap__links-content">
+					<img src="./img/tg.svg" alt="logo" class="umap__img" />
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+	</body>
+
+	<script src="./js/scripts.min.js"></script>
+</html>
